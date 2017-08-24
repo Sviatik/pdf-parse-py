@@ -2,7 +2,7 @@ import xml.etree.ElementTree as ET
 import os
 
 
-tree = ET.parse(os.getcwd() + '/azure.pdf')
+tree = ET.parse(os.getcwd() + '/azure.xml')
 root = tree.getroot()
 
 
